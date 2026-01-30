@@ -26,7 +26,11 @@ public class ClikDetection : MonoBehaviour
 
             if (clickObject)
             {
-                clickObject.GetComponent<SpriteRenderer>().color = Color.red;
+                //clickObject.GetComponent<SpriteRenderer>().color = Color.red;
+                if (clickObject.CompareTag("enemy"))
+                {
+                    Destroy(clickObject.gameObject);
+                }
             }
         }
         if (Input.GetMouseButtonUp(0))
@@ -36,7 +40,7 @@ public class ClikDetection : MonoBehaviour
 
             if (clickObject)
             {
-                clickObject.GetComponent<SpriteRenderer>().color = Color.white;
+                //clickObject.GetComponent<SpriteRenderer>().color = Color.white;
             }
         }
 
