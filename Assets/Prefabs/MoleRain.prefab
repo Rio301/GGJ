@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 5749891092598172041}
   m_Layer: 0
   m_Name: MoleRain
-  m_TagString: enemy
+  m_TagString: hostileEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

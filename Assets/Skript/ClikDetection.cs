@@ -6,12 +6,14 @@ public class ClickDetection : MonoBehaviour
     //public Transform target;
 
     SoundManejer soundManejer;
+    timer timer;
 
     void Start()
     {
         soundManejer = GameObject
             .FindGameObjectWithTag("audio")
             .GetComponent<SoundManejer>();
+        timer = GameObject.FindGameObjectWithTag("timer").GetComponent<timer>();
     }
 
     void Update()
@@ -39,6 +41,16 @@ public class ClickDetection : MonoBehaviour
                 clickObject.GetComponent<BoxCollider2D>().enabled = false;
                 clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
+                timer.resetTimer();
+            }
+            else if (clickObject.CompareTag("hostileEnemy"))
+            {
+                Data.health -= 1;
+                soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
+                clickObject.GetComponent<BoxCollider2D>().enabled = false;
+                clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
+                clickObject.GetComponent<AnimatorControler>()?.Dead(true);
+                timer.resetTimer();
             }
             else if (clickObject.CompareTag("board"))
             {

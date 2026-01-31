@@ -9,13 +9,17 @@ public class Spawner : MonoBehaviour
 
     [Header("Spawn Settings")]
     public Transform[] spawnPoints;
+    private List<Transform> availablePoints;
 
     [Header("Timing Settings")]
-    public float spawnInterval = 3f;
-    public float lifeTime = 5f;
+    public float spawnIntervalMin = 0f;
+    public float spawnIntervalMax = 2f;
+    public float lifeTimeMin = 2f;
+    public float lifeTimeMax = 3f;
 
     [Header("Amount Settings")]
     public int spawnAmount = 1;
+    //public int active = 0;
 
     [System.Serializable]
     public class SpawnChance
@@ -25,6 +29,7 @@ public class Spawner : MonoBehaviour
     }
     void Start()
     {
+        availablePoints = new List<Transform>(spawnPoints);
         StartCoroutine(SpawnRoutine());
     }
 
@@ -32,8 +37,8 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            SpawnObjects();
-            yield return new WaitForSeconds(spawnInterval);
+            StartCoroutine(SpawnObjects());
+            yield return new WaitForSeconds(Random.Range(spawnIntervalMin, spawnIntervalMax));
         }
     }
     
@@ -57,26 +62,35 @@ public class Spawner : MonoBehaviour
         return spawnObjects[0].prefab;
     }
 
-    void SpawnObjects()
+    IEnumerator SpawnObjects()
     {
         
-        List<Transform> availablePoints = new List<Transform>(spawnPoints);
+        //List<Transform> availablePoints = new List<Transform>(spawnPoints);
 
-        for (int i = 0; i < spawnAmount; i++)
-        {
-            if (availablePoints.Count == 0)
-                break;
+        //for (int i = 0; i < spawnAmount; i++)
+        //{
+        //if (availablePoints.Count == 0)
+        //    break;
 
-            int index = Random.Range(0, availablePoints.Count);
-            Transform randomPoint = availablePoints[index];
+        //if (active >= spawnAmount) yield return null;
+        if(availablePoints.Count == 0) yield break;
 
-            GameObject prefabToSpawn = GetRandomPrefab();
-            GameObject obj = Instantiate(prefabToSpawn, randomPoint.position, Quaternion.identity);
-            Destroy(obj, lifeTime);
+        int index = Random.Range(0, availablePoints.Count);
+        Transform randomPoint = availablePoints[index];
+
+        GameObject prefabToSpawn = GetRandomPrefab();
+        GameObject obj = Instantiate(prefabToSpawn, randomPoint.position, Quaternion.identity);
+        float lifeTime = Random.Range(lifeTimeMin, lifeTimeMax);
+        Destroy(obj, lifeTime);
 
 
-            availablePoints.RemoveAt(index);
-        }
+        availablePoints.RemoveAt(index);
+
+        yield return new WaitForSeconds(lifeTime);
+        availablePoints.Add(randomPoint);
+
+
+        //}
     }
 }
 

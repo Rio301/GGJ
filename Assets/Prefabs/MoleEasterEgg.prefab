@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 6196854835746680280}
   m_Layer: 0
   m_Name: MoleEasterEgg
-  m_TagString: enemy
+  m_TagString: hostileEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
