@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimatorControler : MonoBehaviour
 {
     Animator anim;
+    public float timer = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,16 @@ public class AnimatorControler : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Dead(bool hit)
+    {
+        anim.SetBool("Dead", hit);
+        
+        if (hit )
+        {
+            Destroy(this.gameObject, timer);
+        }
     }
 
     
