@@ -7,10 +7,12 @@ public class ClikDetection : MonoBehaviour
     Vector3 mousePosition;
     RaycastHit2D raycastHit2;
     Transform clickObject;
+
+    SoundManejer soundManejer;
     // Start is called before the first frame update
     void Start()
     {
-        
+        soundManejer = GameObject.FindGameObjectWithTag("audio").GetComponent<SoundManejer>();
     }
 
     // Update is called once per frame
@@ -29,8 +31,13 @@ public class ClikDetection : MonoBehaviour
                 //clickObject.GetComponent<SpriteRenderer>().color = Color.red;
                 if (clickObject.CompareTag("enemy"))
                 {
+                    soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
                      AnimatorControler anim =  clickObject.GetComponent<AnimatorControler>();
                     anim.Dead(true);
+                }
+                if (clickObject.CompareTag("board"))
+                {
+                    soundManejer.sfxSource.PlayOneShot(soundManejer.miss);
                 }
             }
         }
