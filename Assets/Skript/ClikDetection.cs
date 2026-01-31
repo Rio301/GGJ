@@ -29,7 +29,8 @@ public class ClikDetection : MonoBehaviour
                 //clickObject.GetComponent<SpriteRenderer>().color = Color.red;
                 if (clickObject.CompareTag("enemy"))
                 {
-                    Destroy(clickObject.gameObject);
+                     AnimatorControler anim =  clickObject.GetComponent<AnimatorControler>();
+                    anim.Dead(true);
                 }
             }
         }
