@@ -46,7 +46,7 @@ public class ClickDetection : MonoBehaviour
             else if (clickObject.CompareTag("hostileEnemy"))
             {
                 Data.health -= 1;
-                soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
+                soundManejer.sfxSource.PlayOneShot(soundManejer.healtReduce2);
                 clickObject.GetComponent<BoxCollider2D>().enabled = false;
                 clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);

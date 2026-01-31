@@ -7,10 +7,11 @@ public class timer : MonoBehaviour
     public Transform rectangle;
     public float combotimeMax = 4f;
     private float combotime;
-
+    SoundManejer soundManejer;
     // Start is called before the first frame update
     void Start()
     {
+        soundManejer = GameObject.FindGameObjectWithTag("audio").GetComponent<SoundManejer>();
         combotime = combotimeMax;
     }
 
@@ -22,6 +23,7 @@ public class timer : MonoBehaviour
         if (combotime < 0)
         {
             Data.health--;
+            soundManejer.sfxSource.PlayOneShot(soundManejer.healtReduce1);
             combotime = combotimeMax;
         }
         rectangle.localScale = new Vector3(combotime/combotimeMax*16.5f , 0.25f, 0.25f);
