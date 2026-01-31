@@ -2617,10 +2617,13 @@ MonoBehaviour:
   spawnObjects:
   - prefab: {fileID: 6211771155231511642, guid: 371baf1d1f8afc043a5a57f1dad0ea71, type: 3}
     chance: 3
+    spawnSFX: {fileID: 0}
   - prefab: {fileID: 5424078099696862272, guid: 46cceabda18f77b48ae7bb6fdaa6d103, type: 3}
     chance: 2
+    spawnSFX: {fileID: 8300000, guid: b41ea22889719e647a5ea7939e01f8d1, type: 3}
   - prefab: {fileID: 3085551359260542127, guid: 8dfad58f75ee15840bc2b57c4c8fed15, type: 3}
     chance: 1
+    spawnSFX: {fileID: 8300000, guid: e9912e411b40bfe41b70256779d6be65, type: 3}
   spawnPoints:
   - {fileID: 1786656821}
   - {fileID: 1077328142}
@@ -2635,7 +2638,8 @@ MonoBehaviour:
   spawnIntervalMax: 2
   lifeTimeMin: 1
   lifeTimeMax: 3
-  spawnAmount: 9
+  spawnAmount: 2
+  soundManejer: {fileID: 1448642899}
 --- !u!1 &1046129644
 GameObject:
   m_ObjectHideFlags: 0

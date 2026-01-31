@@ -20,12 +20,14 @@ public class Spawner : MonoBehaviour
     [Header("Amount Settings")]
     public int spawnAmount = 1;
     //public int active = 0;
+    public AudioSource soundManejer;
 
     [System.Serializable]
     public class SpawnChance
     {
         public GameObject prefab;
         [Range(0, 100)] public float chance;
+        public AudioClip spawnSFX;
     }
     void Start()
     {
@@ -41,8 +43,8 @@ public class Spawner : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(spawnIntervalMin, spawnIntervalMax));
         }
     }
-    
-    GameObject GetRandomPrefab()
+
+    SpawnChance GetRandomSpawnData()
     {
         float totalChance = 0f;
 
@@ -54,13 +56,14 @@ public class Spawner : MonoBehaviour
         foreach (var item in spawnObjects)
         {
             if (randomValue < item.chance)
-                return item.prefab;
+                return item;
 
             randomValue -= item.chance;
         }
 
-        return spawnObjects[0].prefab;
+        return spawnObjects[0];
     }
+
 
     IEnumerator SpawnObjects()
     {
@@ -78,8 +81,19 @@ public class Spawner : MonoBehaviour
         int index = Random.Range(0, availablePoints.Count);
         Transform randomPoint = availablePoints[index];
 
-        GameObject prefabToSpawn = GetRandomPrefab();
-        GameObject obj = Instantiate(prefabToSpawn, randomPoint.position, Quaternion.identity);
+        SpawnChance data = GetRandomSpawnData();
+
+        GameObject obj = Instantiate(
+            data.prefab,
+            randomPoint.position,
+            Quaternion.identity
+        );
+
+        
+        if (data.spawnSFX != null)
+        {
+            soundManejer.PlayOneShot(data.spawnSFX);
+        }
         float lifeTime = Random.Range(lifeTimeMin, lifeTimeMax);
         Destroy(obj, lifeTime);
 
