@@ -1,57 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ClikDetection : MonoBehaviour
+public class ClickDetection : MonoBehaviour
 {
-    Vector3 mousePosition;
-    RaycastHit2D raycastHit2;
-    Transform clickObject;
+    public Vector2 offset;          // offset in WORLD units
+    public Transform target;
 
     SoundManejer soundManejer;
-    // Start is called before the first frame update
+
     void Start()
     {
-        soundManejer = GameObject.FindGameObjectWithTag("audio").GetComponent<SoundManejer>();
+        soundManejer = GameObject
+            .FindGameObjectWithTag("audio")
+            .GetComponent<SoundManejer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        mousePosition = Input.mousePosition;
-        Ray mouseRay = Camera.main.ScreenPointToRay(mousePosition);
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f;
+
+        Vector2 rayOrigin = (Vector2)mouseWorldPos + offset;
+
+        // Optional: visualize
+        target.position = rayOrigin;
 
         if (Input.GetMouseButtonDown(0))
         {
-            raycastHit2 = Physics2D.Raycast(mouseRay.origin, mouseRay.direction);
-            clickObject = raycastHit2 ? raycastHit2.collider.transform : null;;
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.zero);
 
-            if (clickObject)
+            if (hit.collider == null) return;
+
+            Transform clickObject = hit.collider.transform;
+
+            if (clickObject.CompareTag("enemy"))
             {
-                //clickObject.GetComponent<SpriteRenderer>().color = Color.red;
-                if (clickObject.CompareTag("enemy"))
-                {
-                    soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
-                     AnimatorControler anim =  clickObject.GetComponent<AnimatorControler>();
-                    anim.Dead(true);
-                }
-                if (clickObject.CompareTag("board"))
-                {
-                    soundManejer.sfxSource.PlayOneShot(soundManejer.miss);
-                }
+                soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
+                clickObject.GetComponent<AnimatorControler>()?.Dead(true);
+            }
+            else if (clickObject.CompareTag("board"))
+            {
+                soundManejer.sfxSource.PlayOneShot(soundManejer.miss);
             }
         }
-        if (Input.GetMouseButtonUp(0))
-        {
-            raycastHit2 = Physics2D.Raycast(mouseRay.origin, mouseRay.direction);
-            clickObject = raycastHit2 ? raycastHit2.collider.transform : null;
-
-            if (clickObject)
-            {
-                //clickObject.GetComponent<SpriteRenderer>().color = Color.white;
-            }
-        }
-
-        
     }
 }
