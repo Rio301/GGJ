@@ -5,7 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CanvasManejer : MonoBehaviour
+public class Scroring : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     int score = 0;

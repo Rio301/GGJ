@@ -3,7 +3,7 @@ using UnityEngine;
 public class ClickDetection : MonoBehaviour
 {
     public Vector2 offset;          // offset in WORLD units
-    public Transform target;
+    //public Transform target;
 
     SoundManejer soundManejer;
 
@@ -22,7 +22,7 @@ public class ClickDetection : MonoBehaviour
         Vector2 rayOrigin = (Vector2)mouseWorldPos + offset;
 
         // Optional: visualize
-        target.position = rayOrigin;
+        //target.position = rayOrigin;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -34,7 +34,10 @@ public class ClickDetection : MonoBehaviour
 
             if (clickObject.CompareTag("enemy"))
             {
+                Data.score += 1;
                 soundManejer.sfxSource.PlayOneShot(soundManejer.hit);
+                clickObject.GetComponent<BoxCollider2D>().enabled = false;
+                clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
             }
             else if (clickObject.CompareTag("board"))
