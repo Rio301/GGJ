@@ -1,0 +1,2283 @@
+fileFormatVersion: 2
+guid: fcd642efe0475d641a7f5281925eef8b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aset Hujan_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 670
+        width: 20
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5189e926132ff124299f507e10068121
+      internalID: -662537461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 891
+        width: 29
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b9e5d098a18e4e9b05d440c64d57c
+      internalID: 684068456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 958
+        width: 12
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9641eb1bb03a4a4da219a879accf67a
+      internalID: 824507057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_3
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 941
+        width: 14
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f77ead48b65841b3d3c153eb4a86c
+      internalID: -1765988256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_4
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 932
+        width: 11
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeb1765c43ee774db699d8261d0db37
+      internalID: 1493548175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_5
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 962
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e16c4ba8632f234190299a8ac4d45af
+      internalID: 138894016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_6
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 782
+        width: 13
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc92738b0c9ee448b6578fc51e8ab6
+      internalID: 396876493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 921
+        width: 7
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7a64a5d10135841a1e4b4b87f8ce4a
+      internalID: 506286987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_8
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 955
+        width: 6
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e3d1ee3e24d248a1d5cde4f42fbb8
+      internalID: 2048170597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_9
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 782
+        width: 11
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed56cc1ed3a62de45933862c9ce5fd4d
+      internalID: 1188057579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_10
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 930
+        width: 8
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a896e66ba86de4da1a899f449d0248
+      internalID: -1840688749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_11
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 863
+        width: 10
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d72666329c67f49a97a911e9173845
+      internalID: -296567232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_12
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 943
+        width: 8
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72169f3d8fdda6c48b9203c13cbe4486
+      internalID: -1694945456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 787
+        width: 11
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cee58cc2680b047a0faaf117aaa3b0
+      internalID: 749210541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 904
+        width: 10
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e3a67f5ea9184f85bfd3e62cba603
+      internalID: 22032207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 913
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffe4f84a2b49a244a6434f03bd3da5a
+      internalID: -58064540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 887
+        width: 8
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa125ce53140634ea4c9b268de73037
+      internalID: -1498914446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_17
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 765
+        width: 11
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4fe8c290c39b49a3a877a70029881
+      internalID: 352106011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_18
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 862
+        width: 8
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3434f255cef3198429d34318c6f13842
+      internalID: -249080555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_19
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 866
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a25964feb618f4aa6e980d6a0a839b
+      internalID: 1875965301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 819
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066dbc573059a124a815ad6bf5b76d3b
+      internalID: 205940726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 728
+        width: 8
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e0afc5dc4fca74187210627b6e5fba
+      internalID: -621773159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 641
+        width: 17
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07786975440ca6347b0c3f23839e07cd
+      internalID: 935045135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_23
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 726
+        width: 10
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e711b3f734a75ae4c810d87e4e7fcc1a
+      internalID: -165853587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_24
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 788
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9072e14e7db63b49a615531e26a8970
+      internalID: 497982911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 726
+        width: 7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e5b4a3ef364b42a4b8f890c57d1cb
+      internalID: 964939114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_26
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 766
+        width: 9
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c559367033c4285429719d0fdfe359bc
+      internalID: 491244912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_27
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 612
+        width: 14
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8b23f669c32a74a9ece38bd1360ff1
+      internalID: -2027265726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_28
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 572
+        width: 19
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862d53445f68ebe4496e0e69d3ffd395
+      internalID: -967746156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_29
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 749
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9cc656b3082e3429868f9890c1129c
+      internalID: 1671278707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_30
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 667
+        width: 11
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015d522728d20f04ba289ccfa9b3f364
+      internalID: -129876329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_31
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 520
+        width: 11
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0da5b3d1cf148489f96114caa9a20e
+      internalID: -1684861969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_32
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 543
+        width: 10
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09356858bbba9314484605f3233e42ff
+      internalID: 1365850717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_33
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 668
+        width: 8
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb14fb36e63a6f74fa74298ab4bc7293
+      internalID: 1297888981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_34
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 616
+        width: 13
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d770f169c879d44929eae79ce3e362
+      internalID: -307481422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_35
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 531
+        width: 6
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed24c775fc33e4f8b0f23f8350ce6a
+      internalID: -2102325121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_36
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 679
+        width: 9
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58fea80f205e564581658bd28dca437
+      internalID: -1451474829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_37
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 667
+        width: 8
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1b72ce04c415c4b94e40755fc182ad
+      internalID: -821764021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_38
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 559
+        width: 10
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552c28240a22c064086110e9e0acdb2b
+      internalID: -1516993769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_39
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 576
+        width: 15
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fa45c3cff44124f801c0a26b0c3d4f
+      internalID: 1868876324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 539
+        width: 8
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34012e6b8e59fc9409e8e75d6c4b0a44
+      internalID: -968839439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_41
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 638
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2e2ecbea0e39e449104233008d07b2
+      internalID: 99647421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_42
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 581
+        width: 7
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679f89834d9a7b14ab0694dad74ee932
+      internalID: -75284795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_43
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 531
+        width: 6
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d117f333a9adf4fb9df38d586c35be
+      internalID: 24182497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_44
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 407
+        width: 14
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b5c6f6a3d85b4a95e6438b2a4afb1
+      internalID: 935660313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_45
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 523
+        width: 6
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180f3aa141678c5479c8fbe2d70874d0
+      internalID: -359100585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_46
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 526
+        width: 6
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cff96b69dd5120468fd707607008927
+      internalID: -1934929002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_47
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 537
+        width: 6
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0570266744447429fd3e99dc3bb076
+      internalID: -941899160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_48
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 481
+        width: 11
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf7812d180314c429cc59fa73c29470
+      internalID: -1200938140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_49
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 560
+        width: 15
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d96f4eeadc38ce439d5e63ec14048e6
+      internalID: -351791504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 292
+        width: 22
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cb3150e1a3bcb458fd43d78e5a39f0
+      internalID: 1541142222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_51
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 460
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d70abd7ea6fa54eae14936f8aef91d
+      internalID: 1632158294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_52
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 348
+        width: 8
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242693d2e6a934d4392470902be79eb2
+      internalID: -1530532871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_53
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 366
+        width: 15
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2f079adfef3243bdf2d0a0a785419
+      internalID: -681036955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_54
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 442
+        width: 11
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f6dcf95242f3947a8e984cb3d7eab9
+      internalID: -800201582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_55
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 248
+        width: 8
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104fd81757bc4714b89472730a4157e6
+      internalID: 278668503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_56
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 491
+        width: 6
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2397bb7465fc1ed488f33c916b61e3da
+      internalID: 1465912802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_57
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 489
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d4bcb74472ef45b4ceaa5052ff035
+      internalID: -1388394598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_58
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 334
+        width: 20
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dc399372d1e714f8ea8d1afe04a24c
+      internalID: 1155814048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_59
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 96
+        width: 28
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88fe83aa4c8d384baa34497583b1ad0
+      internalID: -1051849533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_60
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 387
+        width: 7
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c35849877353b46959cb131d206a0d
+      internalID: 755336110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_61
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 410
+        width: 7
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b72816238232545958f9bdedbc840f
+      internalID: 1375562199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_62
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 269
+        width: 10
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08204b6f7acfb36448a75dcab3472394
+      internalID: -1802288824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_63
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 331
+        width: 7
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d9e81bcdbab3b4c95eefe63a98199a
+      internalID: -368121005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_64
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 397
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff8efbb6239d34a8de994b9fefba0d
+      internalID: 2043140744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_65
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 381
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e0d0804bab364a8d365c515971b0a
+      internalID: 151255457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_66
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 132
+        width: 17
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c02da814556c041b67b62b1bed07ec
+      internalID: -2004553153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_67
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 293
+        width: 6
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f44cd601bca234eb7cdd122d4de0cf
+      internalID: 1728662584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_68
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 319
+        width: 8
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38828f9d95c626d48bb05cdae578bcb6
+      internalID: -1254803944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_69
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 342
+        width: 9
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10968b4b31eef964c9c279050bebeaec
+      internalID: -433167006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_70
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 115
+        width: 17
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81aba3e2bf5c1d4c9535e5b65f80c8f
+      internalID: 1465427451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_71
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 331
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efc31fd31731e641b184c607f2f43ad
+      internalID: -1334727406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_72
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 212
+        width: 12
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856a92e526a20bf4cb712c8d819b13b4
+      internalID: -1773674226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_73
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 206
+        width: 8
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cab05be11b53479e9e4492a747f9a
+      internalID: 1719295467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_74
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 273
+        width: 7
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05b1171bde71bc4c9bfac995294c178
+      internalID: 1969279028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_75
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 249
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6b15133e1b0344b89c59588c01aff
+      internalID: -113691150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_76
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 79
+        width: 19
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425368ec865c6484d888b7a6b0ca2521
+      internalID: 99826054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_77
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 232
+        width: 11
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7618a3e61d4992c48a96ef2996422c25
+      internalID: -640422357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_78
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 252
+        width: 6
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2558d5a505fa8fc41bf33cdf83f69d22
+      internalID: -1570770657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_79
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 190
+        width: 7
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810b1af15cdfd0419e9eba6e85e5db1
+      internalID: 894357169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_80
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 185
+        width: 6
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb729675bd622845bccbbb355fbe293
+      internalID: -393868181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_81
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 83
+        width: 14
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39034237b7b75ad4cb0e795487418d54
+      internalID: 715493720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_82
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 105
+        width: 8
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004226c34f49aed459e2a80ab0a8f6cb
+      internalID: 1983148982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_83
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 8
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87694e880586f148a8298f70b75e2bb
+      internalID: 1923064689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_84
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 183
+        width: 6
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252cc5c7add725947bb0ba4f62b4158f
+      internalID: -1296108675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_85
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 50
+        width: 9
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a2a1d9fa7250f4885f360cf375980d
+      internalID: -791892635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_86
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 63
+        width: 10
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc78b9b4b668e84694d6640bb78cccc
+      internalID: 1550237941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_87
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 9
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a8f01da3d59164b995bfc3051041be
+      internalID: 234008927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_88
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 108
+        width: 8
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875cbaa982ab16943811303a13a41a23
+      internalID: 2006732006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_89
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 69
+        width: 10
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092fddfba86615499aeca40af0fcfc1
+      internalID: 1114029904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_90
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 12
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f6bf321b204014c9b5f380aceaf7ca
+      internalID: -83726688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_91
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 135
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaeab5047a2e5442889de50a88e1636
+      internalID: 656576675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_92
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 21
+        width: 9
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db4722739c9671459afc27b3385b48b
+      internalID: 180928085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_93
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 12
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e229a479f772f3d45acba26c9bb82d9f
+      internalID: 1179466953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_94
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 46
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff151eb407ba0ac4c96eb2d11b434ba2
+      internalID: -1183944498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_95
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 60
+        width: 8
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a177b2e3e527c3458eb9bcc0365ee46
+      internalID: -1090573998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_96
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 5
+        width: 7
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38f62f859f04c40850432a869cf9e8
+      internalID: 107410752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aset Hujan_97
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 13
+        width: 8
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac99e71fd7b8c46bc8baddf50153b6
+      internalID: -1345183124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Aset Hujan_0: -662537461
+      Aset Hujan_1: 684068456
+      Aset Hujan_10: -1840688749
+      Aset Hujan_11: -296567232
+      Aset Hujan_12: -1694945456
+      Aset Hujan_13: 749210541
+      Aset Hujan_14: 22032207
+      Aset Hujan_15: -58064540
+      Aset Hujan_16: -1498914446
+      Aset Hujan_17: 352106011
+      Aset Hujan_18: -249080555
+      Aset Hujan_19: 1875965301
+      Aset Hujan_2: 824507057
+      Aset Hujan_20: 205940726
+      Aset Hujan_21: -621773159
+      Aset Hujan_22: 935045135
+      Aset Hujan_23: -165853587
+      Aset Hujan_24: 497982911
+      Aset Hujan_25: 964939114
+      Aset Hujan_26: 491244912
+      Aset Hujan_27: -2027265726
+      Aset Hujan_28: -967746156
+      Aset Hujan_29: 1671278707
+      Aset Hujan_3: -1765988256
+      Aset Hujan_30: -129876329
+      Aset Hujan_31: -1684861969
+      Aset Hujan_32: 1365850717
+      Aset Hujan_33: 1297888981
+      Aset Hujan_34: -307481422
+      Aset Hujan_35: -2102325121
+      Aset Hujan_36: -1451474829
+      Aset Hujan_37: -821764021
+      Aset Hujan_38: -1516993769
+      Aset Hujan_39: 1868876324
+      Aset Hujan_4: 1493548175
+      Aset Hujan_40: -968839439
+      Aset Hujan_41: 99647421
+      Aset Hujan_42: -75284795
+      Aset Hujan_43: 24182497
+      Aset Hujan_44: 935660313
+      Aset Hujan_45: -359100585
+      Aset Hujan_46: -1934929002
+      Aset Hujan_47: -941899160
+      Aset Hujan_48: -1200938140
+      Aset Hujan_49: -351791504
+      Aset Hujan_5: 138894016
+      Aset Hujan_50: 1541142222
+      Aset Hujan_51: 1632158294
+      Aset Hujan_52: -1530532871
+      Aset Hujan_53: -681036955
+      Aset Hujan_54: -800201582
+      Aset Hujan_55: 278668503
+      Aset Hujan_56: 1465912802
+      Aset Hujan_57: -1388394598
+      Aset Hujan_58: 1155814048
+      Aset Hujan_59: -1051849533
+      Aset Hujan_6: 396876493
+      Aset Hujan_60: 755336110
+      Aset Hujan_61: 1375562199
+      Aset Hujan_62: -1802288824
+      Aset Hujan_63: -368121005
+      Aset Hujan_64: 2043140744
+      Aset Hujan_65: 151255457
+      Aset Hujan_66: -2004553153
+      Aset Hujan_67: 1728662584
+      Aset Hujan_68: -1254803944
+      Aset Hujan_69: -433167006
+      Aset Hujan_7: 506286987
+      Aset Hujan_70: 1465427451
+      Aset Hujan_71: -1334727406
+      Aset Hujan_72: -1773674226
+      Aset Hujan_73: 1719295467
+      Aset Hujan_74: 1969279028
+      Aset Hujan_75: -113691150
+      Aset Hujan_76: 99826054
+      Aset Hujan_77: -640422357
+      Aset Hujan_78: -1570770657
+      Aset Hujan_79: 894357169
+      Aset Hujan_8: 2048170597
+      Aset Hujan_80: -393868181
+      Aset Hujan_81: 715493720
+      Aset Hujan_82: 1983148982
+      Aset Hujan_83: 1923064689
+      Aset Hujan_84: -1296108675
+      Aset Hujan_85: -791892635
+      Aset Hujan_86: 1550237941
+      Aset Hujan_87: 234008927
+      Aset Hujan_88: 2006732006
+      Aset Hujan_89: 1114029904
+      Aset Hujan_9: 1188057579
+      Aset Hujan_90: -83726688
+      Aset Hujan_91: 656576675
+      Aset Hujan_92: 180928085
+      Aset Hujan_93: 1179466953
+      Aset Hujan_94: -1183944498
+      Aset Hujan_95: -1090573998
+      Aset Hujan_96: 107410752
+      Aset Hujan_97: -1345183124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
