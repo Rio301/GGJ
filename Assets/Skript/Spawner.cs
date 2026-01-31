@@ -37,6 +37,7 @@ public class Spawner : MonoBehaviour
             Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
             GameObject obj = Instantiate(objectToSpawn, randomPoint.position, Quaternion.identity);
+            
 
             Destroy(obj, lifeTime);
         }
