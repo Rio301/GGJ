@@ -32,14 +32,30 @@ public class Spawner : MonoBehaviour
 
     void SpawnObjects()
     {
-        for (int i = 0; i < spawnAmount; i++)
-        {
-            Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        //for (int i = 0; i < spawnAmount; i++)
+        //{
+        //    Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
-            GameObject obj = Instantiate(objectToSpawn, randomPoint.position, Quaternion.identity);
+        //    GameObject obj = Instantiate(objectToSpawn, randomPoint.position, Quaternion.identity);
             
 
+        //    Destroy(obj, lifeTime);
+        //}
+
+        List<Transform> availablePoints = new List<Transform>(spawnPoints);
+
+        for (int i = 0; i < spawnAmount; i++)
+        {
+            if (availablePoints.Count == 0)
+                break;
+
+            int index = Random.Range(0, availablePoints.Count);
+            Transform randomPoint = availablePoints[index];
+
+            GameObject obj = Instantiate(objectToSpawn, randomPoint.position, Quaternion.identity);
             Destroy(obj, lifeTime);
+
+            availablePoints.RemoveAt(index);
         }
     }
 }
