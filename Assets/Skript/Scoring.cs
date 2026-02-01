@@ -45,7 +45,7 @@ public class Scroring : MonoBehaviour
 
     void Update()
     {
-        if (Data.score >= 15)
+        if (Data.score >= scoreToWin)
             SceneManager.LoadScene("EndGame");
         int score = Data.score;
         scoreText.text = score.ToString();

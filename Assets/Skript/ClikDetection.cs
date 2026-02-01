@@ -5,6 +5,7 @@ public class ClickDetection : MonoBehaviour
     public Vector2 offset;          // offset in WORLD units
     //public Transform target;
     public GameObject BonkPrefab;
+    public GameObject MissPrefab;
 
     SoundManejer soundManejer;
     timer timer;
@@ -31,7 +32,16 @@ public class ClickDetection : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.zero);
 
-            if (hit.collider == null) return;
+            if (hit.collider == null)
+            {
+                soundManejer.sfxSource3.volume = 10;
+                soundManejer.sfxSource3.PlayOneShot(soundManejer.miss);
+
+                Vector3 bonkSpawnPoint = new Vector3(rayOrigin.x, rayOrigin.y, mouseWorldPos.z);
+                GameObject obj = Instantiate(MissPrefab, bonkSpawnPoint, Quaternion.Euler(0f, 0f, Random.Range(-30f, 30f)));
+                Destroy(obj, 3f);
+                return;
+            }
 
             Transform clickObject = hit.collider.transform;
 
@@ -55,8 +65,11 @@ public class ClickDetection : MonoBehaviour
                 clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
                 timer.resetTimer();
+            } else
+            {
+                Data.health -= 100;
             }
-            
+
         }
     }
 }
