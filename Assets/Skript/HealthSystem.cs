@@ -36,7 +36,7 @@ public class HealthSystem : MonoBehaviour
         if (Data.health <= 0)
         {
             SceneManager.LoadScene("EndGame");
-            Debug.LogWarning("EndConditionnya Belum Di tambah");
+            //Debug.LogWarning("EndConditionnya Belum Di tambah");
         }
     }
 }
