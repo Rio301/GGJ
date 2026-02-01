@@ -4,6 +4,7 @@ public class ClickDetection : MonoBehaviour
 {
     public Vector2 offset;          // offset in WORLD units
     //public Transform target;
+    public GameObject BonkPrefab;
 
     SoundManejer soundManejer;
     timer timer;
@@ -42,6 +43,9 @@ public class ClickDetection : MonoBehaviour
                 clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
                 timer.resetTimer();
+                Vector3 bonkSpawnPoint = new Vector3(rayOrigin.x, rayOrigin.y, mouseWorldPos.z);
+                GameObject obj =  Instantiate(BonkPrefab, bonkSpawnPoint, Quaternion.Euler(0f, 0f, Random.Range(-30f, 30f)));
+                Destroy(obj, 3f);
             }
             else if (clickObject.CompareTag("hostileEnemy"))
             {

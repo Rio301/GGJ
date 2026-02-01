@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: -1.3, y: -0.2}
+  BonkPrefab: {fileID: 3276163654862991954, guid: 28e9ef35ebdb672478cfbf09e3803a75, type: 3}
 --- !u!4 &36312515
 Transform:
   m_ObjectHideFlags: 0
@@ -501,7 +502,7 @@ GameObject:
   - component: {fileID: 102777343}
   - component: {fileID: 102777342}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Timer
   m_TagString: timer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2617,10 +2618,13 @@ MonoBehaviour:
   spawnObjects:
   - prefab: {fileID: 6211771155231511642, guid: 371baf1d1f8afc043a5a57f1dad0ea71, type: 3}
     chance: 3
+    spawnSFX: {fileID: 0}
   - prefab: {fileID: 5424078099696862272, guid: 46cceabda18f77b48ae7bb6fdaa6d103, type: 3}
     chance: 2
+    spawnSFX: {fileID: 0}
   - prefab: {fileID: 3085551359260542127, guid: 8dfad58f75ee15840bc2b57c4c8fed15, type: 3}
     chance: 1
+    spawnSFX: {fileID: 0}
   spawnPoints:
   - {fileID: 1786656821}
   - {fileID: 1077328142}
@@ -2636,6 +2640,7 @@ MonoBehaviour:
   lifeTimeMin: 1
   lifeTimeMax: 3
   spawnAmount: 9
+  soundManejer: {fileID: 0}
 --- !u!1 &1046129644
 GameObject:
   m_ObjectHideFlags: 0
