@@ -256,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: -1.3, y: -0.2}
+  BonkPrefab: {fileID: 3276163654862991954, guid: 28e9ef35ebdb672478cfbf09e3803a75, type: 3}
 --- !u!4 &36312515
 Transform:
   m_ObjectHideFlags: 0
