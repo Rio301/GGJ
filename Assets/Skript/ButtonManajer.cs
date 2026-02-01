@@ -21,6 +21,7 @@ public class ButtonManajer : MonoBehaviour
     public void startTheGame(string inGameScene)
     {
         SceneManager.LoadScene(inGameScene);
+        Data.score = 0;
 
     }
     public void exitTheGame()

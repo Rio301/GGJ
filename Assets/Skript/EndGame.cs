@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class EndGame : MonoBehaviour
@@ -32,6 +33,10 @@ public class EndGame : MonoBehaviour
             sfx.Play();
             sfx.volume = 5;
         }
+    }
+    public void goToMain(string Scene)
+    {
+        SceneManager.LoadScene(Scene);
     }
 
 }
