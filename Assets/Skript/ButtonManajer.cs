@@ -6,10 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManajer : MonoBehaviour
 {
-    
+    public GameObject panelRole;
+    public AudioSource sfx;
+    public float timer = .5f;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (panelRole == null)
+        {
+
+        }
+        if (sfx == null)
+        {
+
+        }
         
     }
 
@@ -17,21 +28,38 @@ public class ButtonManajer : MonoBehaviour
     void Update()
     {
         
+        
     }
-    public void startTheGame(string inGameScene)
+    public void startTheGame()
     {
-        SceneManager.LoadScene(inGameScene);
+        sfx.Play();
         Data.score = 0;
+        StartCoroutine(LoadSceneInGame());
+        
 
     }
     public void exitTheGame()
     {
-        Application.Quit();
+        sfx.Play();
         Debug.Log("Kamu Pergi Tampa Aba Aba");
-    }
-    public void Continue()
-    {
-
+        StartCoroutine(timeToexitTheGame());
     }
     
+    public void Continue()
+    {
+        panelRole.SetActive(false);
+    }
+    IEnumerator LoadSceneInGame()
+    {
+        yield return new WaitForSeconds(timer);
+        SceneManager.LoadScene(1);
+    }
+    IEnumerator timeToexitTheGame()
+    {
+        yield return new WaitForSeconds(timer);
+        
+        Application.Quit();
+    }
+
+
 }

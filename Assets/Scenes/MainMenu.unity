@@ -158,8 +158,8 @@ Camera:
   m_GameObject: {fileID: 77730478}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -301,7 +301,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3e953dabe2d2db046856db44db26d126, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fb8827126b77e48469fec01e2c9dd3d6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1453,7 +1453,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1949557289}
         m_TargetAssemblyTypeName: ButtonManajer, Assembly-CSharp
         m_MethodName: startTheGame
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1591,6 +1591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6203cf4f56c32194297e0bb9034aeb2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelRole: {fileID: 0}
+  sfx: {fileID: 468897517}
+  timer: 2
 --- !u!1 &2087658822
 GameObject:
   m_ObjectHideFlags: 0
