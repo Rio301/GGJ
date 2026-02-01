@@ -860,7 +860,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5077c0b0260af7b43941d58afb9f49fc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1139,6 +1139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
+  volume: 1
   sfx: {fileID: 1527242487}
   win: {fileID: 8300000, guid: 5077c0b0260af7b43941d58afb9f49fc, type: 3}
   gameOver: {fileID: 8300000, guid: 882d3576c75aeee49a3c997c2fd7e367, type: 3}

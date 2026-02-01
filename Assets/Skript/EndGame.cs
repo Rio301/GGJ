@@ -7,6 +7,7 @@ using TMPro;
 public class EndGame : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
+    public float volume;
     public AudioSource sfx;
     public AudioClip win, gameOver;
 
@@ -29,12 +30,8 @@ public class EndGame : MonoBehaviour
             gameOverTitle.SetActive(false);
             sfx.clip = win;
             sfx.Play();
+            sfx.volume = 5;
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
