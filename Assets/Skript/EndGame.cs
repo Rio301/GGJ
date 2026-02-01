@@ -9,21 +9,27 @@ public class EndGame : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public AudioSource sfx;
     public AudioClip win, gameOver;
+
+    public GameObject gameOverTitle, winTitle;
     // Start is called before the first frame update
-    private void Awake()
-    {
-        if (Data.health <= 0)
-        {
-            sfx.clip = gameOver;
-        }
-        else if (Data.score >= 40)
-        {
-            sfx.clip = win;
-        }
-    }
+    Data data;
     void Start()
     {
-        
+
+        if (Data.health <= 0)
+        {
+            gameOverTitle.SetActive(true);
+            winTitle.SetActive(false);
+            sfx.clip = gameOver;
+            sfx.Play();
+        }
+        else if (Data.score >= 15)
+        {
+            winTitle.SetActive(true);
+            gameOverTitle.SetActive(false);
+            sfx.clip = win;
+            sfx.Play();
+        }
     }
 
     // Update is called once per frame
