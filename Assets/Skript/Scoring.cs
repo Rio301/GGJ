@@ -34,6 +34,7 @@ public class Scroring : MonoBehaviour
     public GameObject particle;
 
     private int lastState = 0; // prevents repeat transitions
+    int difficulty = GameManager.Instance.difficultyLevel;
 
     void Start()
     {
@@ -41,6 +42,27 @@ public class Scroring : MonoBehaviour
         spawner.spawnObjects[0].chance = 1f;
         spawner.spawnObjects[1].chance = 0f;
         spawner.spawnObjects[2].chance = 0f;
+
+        if (difficulty == 0)
+        {
+            scoreToRain = 15;
+            scoreToWin = 30;
+        }
+        else if (difficulty == 1)
+        {
+            scoreToRain = 20;
+            scoreToWin = 45;
+        }
+        else if (difficulty == 2)
+        {
+            scoreToRain = 25;
+            scoreToWin = 60;
+        }
+        else if (difficulty == 3)
+        {
+            scoreToRain = 30;
+            scoreToWin = 75;
+        }
     }
 
     void Update()
