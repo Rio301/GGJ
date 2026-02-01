@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class Scroring : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class Scroring : MonoBehaviour
 
     void Update()
     {
+        if (Data.score >= 15)
+            SceneManager.LoadScene("EndGame");
         int score = Data.score;
         scoreText.text = score.ToString();
 
