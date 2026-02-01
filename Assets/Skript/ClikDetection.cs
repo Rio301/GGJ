@@ -40,6 +40,8 @@ public class ClickDetection : MonoBehaviour
                 Vector3 bonkSpawnPoint = new Vector3(rayOrigin.x, rayOrigin.y, mouseWorldPos.z);
                 GameObject obj = Instantiate(MissPrefab, bonkSpawnPoint, Quaternion.Euler(0f, 0f, Random.Range(-30f, 30f)));
                 Destroy(obj, 3f);
+
+                timer.playMiss();
                 return;
             }
 
