@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
@@ -30,6 +31,12 @@ public class HealthSystem : MonoBehaviour
             // If currentHealth = 3 → indices 0,1,2 are full
             healthSprites[i].sprite = i < currentHealth ? fullColor : emptyColor;
             healthLights[i].enabled = i < currentHealth;
+        }
+
+        if (Data.health <= 0)
+        {
+            SceneManager.LoadScene("EndGame");
+            Debug.LogWarning("EndConditionnya Belum Di tambah");
         }
     }
 }

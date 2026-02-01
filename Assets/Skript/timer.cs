@@ -18,15 +18,15 @@ public class timer : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rectangle.localScale = new Vector3(combotime / combotimeMax * 16.5f, 0.25f, 0.25f);
+        rectangle.localScale = new Vector3(combotime / combotimeMax * 1.8f, 1f, 1f);
         if (Data.score > 0) combotime -= Time.fixedDeltaTime;
         if (combotime < 0)
         {
             Data.health--;
-            soundManejer.sfxSource.PlayOneShot(soundManejer.healtReduce1);
+            soundManejer.sfxSource.PlayOneShot(soundManejer.healtReduce2);
             combotime = combotimeMax;
         }
-        rectangle.localScale = new Vector3(combotime/combotimeMax*16.5f , 0.25f, 0.25f);
+        rectangle.localScale = new Vector3(combotime/combotimeMax*1.8f , 1f, 1f);
     }
 
     public void resetTimer()

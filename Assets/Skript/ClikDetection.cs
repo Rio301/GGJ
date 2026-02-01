@@ -52,10 +52,7 @@ public class ClickDetection : MonoBehaviour
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
                 timer.resetTimer();
             }
-            else if (clickObject.CompareTag("board"))
-            {
-                soundManejer.sfxSource.PlayOneShot(soundManejer.miss);
-            }
+            
         }
     }
 }
