@@ -29,4 +29,9 @@ public class ButtonManajer : MonoBehaviour
         Application.Quit();
         Debug.Log("Kamu Pergi Tampa Aba Aba");
     }
+    public void Continue()
+    {
+
+    }
+    
 }

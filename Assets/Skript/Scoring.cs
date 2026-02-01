@@ -59,6 +59,8 @@ public class Scroring : MonoBehaviour
             spawner.spawnObjects[0].chance = friendlySpawnRate;
             spawner.spawnObjects[1].chance = maskedSpawnRate;
             spawner.spawnObjects[2].chance = EasterEggSpawnRate;
+
+
         }
         else if (score < scoreToRain && lastState != 0)
         {
