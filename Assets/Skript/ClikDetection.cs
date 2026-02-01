@@ -56,6 +56,15 @@ public class ClickDetection : MonoBehaviour
                 clickObject.GetComponent<AnimatorControler>()?.Dead(true);
                 timer.resetTimer();
             }
+            else if (clickObject.CompareTag("hostileEnemy1"))
+            {
+                Data.health -= 6;
+                soundManejer.sfxSource.PlayOneShot(soundManejer.healtReduce2);
+                clickObject.GetComponent<BoxCollider2D>().enabled = false;
+                clickObject.GetComponent<CapsuleCollider2D>().enabled = false;
+                clickObject.GetComponent<AnimatorControler>()?.Dead(true);
+                
+            }
             
         }
     }

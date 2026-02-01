@@ -9,6 +9,7 @@ TagManager:
   - board
   - hostileEnemy
   - timer
+  - hostileEnemy1
   layers:
   - Default
   - TransparentFX
